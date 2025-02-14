@@ -2,6 +2,8 @@
 title: Home
 ---
 
+<mark><h1>Hello World! </h1></mark>
+
 <ul class="gallery">
     {% for photo in site.data.gallery %}
         <li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: '800x800>' }}')">
